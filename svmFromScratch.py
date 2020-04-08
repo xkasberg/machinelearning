@@ -4,16 +4,16 @@ import numpy as np
 import os
 
 
-###WORK IN PROGRESS###
+
 style.use('ggplot')
 
 data_dict = {-1:np.array([[1,7],[2,8],[3,8]]), 
             1:np.array([[5,1],[6,-1],[7,3]])}
 
 
-class Support_Vector_Machine:
+class Support_Vector_Machine(object):
     """Vladimir Vapnik, Support Vector Machine Algorithm
-       Represented in OOP"""
+       Represented in OOP, with linear seperable data only"""
 
     def __init__(self, visualization=True):
         self.visualization = visualization
