@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "MachineLearning/bin/python3.7"
+    "python.pythonPath": "MachineLearning/bin/python3",
+    "git.ignoreLimitWarning": true
 }
