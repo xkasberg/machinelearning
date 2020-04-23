@@ -5,9 +5,9 @@ np.set_printoptions(suppress=True)
 
 def pageRank(linkMatrix, d):
     """
-    This function ranks pages based off of googles PageRank Algorithm, using the principal of 
-    The algorithm design methodology is to calculate the probability of a crawler landing on a site 
-    by clicking random links
+    This function ranks pages based off of googles PageRank Algorithm,
+    The algorithm is designed to calculate the probability of a crawler landing on a site 
+    if it were to click through random links of connected websites
 
     In this way, the amount of crawlers on a site can be represented as a vector, 
     the amount of crawlers at time t+1 can be represented as the vector being transformed by Transformation M 
