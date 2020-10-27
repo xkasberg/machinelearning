@@ -21,7 +21,7 @@ cligj==0.5.0
 colorama==0.3.9
 configparser==3.7.4
 crayons==0.2.0
-cryptography==2.8
+cryptography==3.2
 cvxopt==1.2.4
 cycler==0.10.0
 dash==1.0.2
